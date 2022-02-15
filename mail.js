@@ -17,10 +17,10 @@ const mailOptions = {
   text: 'Hey there, it’s our first message sent with Nodemailer ;) ',
   attachments: [
     {
-      filename:"attach.txt",
+      filename:"report.html",
       // content:"attach.txt",
       // content: new Buffer('attach.txt','utf-8')
-      path:"./attach/attach.txt",
+      path:"./newman/report.html",
       // contentType: 'text/plain'
     }
   ]
